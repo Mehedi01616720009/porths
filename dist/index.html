@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--======== google font ========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--======== style css ========-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--======== custom css ========-->
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--======== header ========-->
+<header>
+    <!--==== header container ====-->
+    <div class="container flex justify-between items-center mt-3 py-5 xl:py-0">
+        <!--== logo ==-->
+        <a href="" class="nav__logo text-3xl font-bold tracking-tighter">Port<span>HS</span></a>
+
+        <!--== menu ==-->
+        <div class="nav__menu w-64 h-full flex flex-col fixed top-0 px-8 py-10 text-base" id="nav-menu">
+            <!-- nav close -->
+            <div class="nav__close" id="nav-close"></div>
+
+            <!-- sidebar logo -->
+            <a href="" class="nav__logo text-3xl font-bold tracking-tighter mb-4 lg:hidden">Port<span>HS</span></a>
+
+            <!-- menu links -->
+            <a href="" class="nav__link active py-4 lg:py-6">Home</a>
+            <a href="" class="nav__link py-4 lg:py-6">About</a>
+            <a href="" class="nav__link py-4 lg:py-6">Works</a>
+            <a href="" class="nav__link py-4 lg:py-6">Contact</a>
+        </div>
+
+        <!--== contact, toggle button ==-->
+        <div class="nav__short__menu flex items-center gap-3">
+            <!-- contact button -->
+            <a href="" class="nav__btn px-4 py-2 md:px-7 rounded-lg lg:rounded-2xl text-white">Let's talk</a>
+
+            <!-- toggle button -->
+            <div class="nav__toggle flex flex-col items-center cursor-pointer lg:hidden" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--======== custom js ========-->
+<script src="../js/main.js"></script>
+</body>
+</html>
