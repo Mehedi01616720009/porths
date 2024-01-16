@@ -42,8 +42,8 @@ body {
 /* container */
 .container {
     width: calc(100% - 2rem);
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 @media screen and (min-width: 1178px) {
@@ -171,6 +171,41 @@ body {
     width: 36px;
 }
 
+/* main */
+/* profile card */
+.profile__card__designation {
+    color: var(--text-light-color);
+}
+
+/* marquee element */
+.marquee {
+    color: var(--text-light-color);
+}
+
+.marquee div {
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(-63%);
+    }
+}
+
+.highlight {
+    color: var(--link-active-color);
+}
+
+/* components */
+/* card */
 .card {
     background-color: var(--card-bg);
+}
+
+.card__subtitle {
+    color: var(--text-light-color);
 }
