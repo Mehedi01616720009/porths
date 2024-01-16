@@ -209,3 +209,13 @@ body {
 .card__subtitle {
     color: var(--text-light-color);
 }
+
+.card__button {
+    color: var(--btn-active-color);
+    opacity: .2;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover .card__button {
+    opacity: 1;
+}

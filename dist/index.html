@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+    <!--======== iconoir icons css ========-->
+    <link rel="stylesheet" href="css/iconoir.css">
+
     <!--======== style css ========-->
     <link rel="stylesheet" href="css/style.css">
 
@@ -61,7 +64,7 @@
     <section class="home__first__row">
         <div class="container grid grid-cols-1 lg:grid-cols-2 gap-6">
             <!--== profile card ==-->
-            <div class="card grid grid-cols-1 md:grid-cols-2 gap-7 px-7 py-10 rounded-3xl">
+            <div class="card grid grid-cols-1 md:grid-cols-2 items-center gap-7 px-7 py-10 rounded-3xl relative">
                 <!-- profile card content > image -->
                 <div class="profile__card_content rounded-tl-3xl rounded-br-3xl overflow-hidden">
                     <img src="images/3.jpg" alt="" class="w-full">
@@ -75,6 +78,10 @@
 
                     <p class="text-sm">I am a Web Designer based in san fransisco.</p>
                 </div>
+
+                <button class="card__button flex items-center text-4xl absolute bottom-4 right-6">
+                    <i class="iconoir-dot-arrow-right"></i>
+                </button>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
@@ -107,7 +114,7 @@
                 <div class="card grid gap-4 rounded-3xl p-5">
                     <!-- about card content > image -->
                     <div class="about__card_content overflow-hidden">
-                        <img src="images/signature.png" alt="" class="w-full grayscale">
+                        <img src="images/signature.png" alt="" class="w-full opacity-40">
                     </div>
 
                     <!-- about card data -->
@@ -118,7 +125,9 @@
                             <h3 class="card__title text-xl capitalize font-semibold mb-2">credentials</h3>
                         </div>
 
-                        <button class="card__button"></button>
+                        <button class="card__button text-4xl">
+                            <i class="iconoir-dot-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>

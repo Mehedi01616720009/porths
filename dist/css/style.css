@@ -578,6 +578,38 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -633,6 +665,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-between {
@@ -755,6 +791,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -782,6 +828,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 .grayscale {
