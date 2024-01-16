@@ -35,7 +35,7 @@ body.dark-theme{
 /* body */
 body {
     font-family: var(--body-font);
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -73,7 +73,7 @@ body {
         top: 0;
         left: -256px;
         padding: 2.5rem 2rem;
-        background-color: var(--bg-light-color);
+        background: var(--bg-light-color);
         z-index: 100;
     }
 }
@@ -84,7 +84,7 @@ body {
 
 /* nav close */
 .nav__close {
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -136,12 +136,12 @@ body {
 
 /* nav button */
 .nav__btn {
-    background-color: var(--btn-color);
+    background: var(--btn-color);
     transition: all .3s ease-in-out;
 }
 
 .nav__btn:hover {
-    background-color: var(--btn-active-color);
+    background: var(--btn-active-color);
 }
 
 /* nav toggle */
@@ -174,6 +174,10 @@ body {
 
 /* main */
 /* profile card */
+.profile__card__content {
+    max-width: 224px;
+}
+
 .profile__card__designation {
     color: var(--text-light-color);
 }
@@ -201,10 +205,78 @@ body {
     color: var(--link-active-color);
 }
 
+/* service card */
+.service__card__content i {
+    color: var(--btn-active-color);
+}
+
+@media screen and (min-width: 768px) {
+    .service__card__content {
+        font-size: 2.5rem;
+    }
+}
+
+/* social card */
+.social__card__content {
+    background: var(--bg-light-color);
+}
+
+.social__card__content a {
+    background: var(--card-bg);
+    color: var(--link-active-color);
+    transition: .3s;
+}
+
+.social__card__content a:hover {
+    color: var(--text-color);
+}
+
+/* experience card */
+.experience__card__data {
+    background: var(--bg-light-color);
+}
+
+.experience__card__data h3 {
+    color: var(--link-active-color);
+}
+
+.experience__card__data p {
+    color: var(--text-light-color);
+    line-height: 1.6;
+}
+
+/* contact card */
+.contact__card__data h1 span {
+    color: var(--primary-color);
+}
+
+/* foorter */
+.footer__menu__link {
+    color: var(--link-color);
+}
+
+.footer__menu__link:hover {
+    color: var(--link-active-color);
+}
+
+.footer__menu__link.active {
+    color: var(--link-active-color);
+}
+
+.copyright__text {
+    color: var(--text-light-color);
+}
+
+.copyright__text span {
+    color: var(--link-active-color);
+}
+
 /* components */
 /* card */
 .card {
-    background-color: var(--card-bg);
+    background: var(--card-bg);
+    position: relative;
+    overflow: hidden;
 }
 
 .card__subtitle {
