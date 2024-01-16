@@ -74,6 +74,7 @@ body {
         left: -256px;
         padding: 2.5rem 2rem;
         background-color: var(--bg-light-color);
+        z-index: 100;
     }
 }
 
