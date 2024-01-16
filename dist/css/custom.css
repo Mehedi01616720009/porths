@@ -16,22 +16,6 @@
     --body-font: 'Inter', sans-serif;
 }
 
-/*===== variable dark =====*/
-body.dark-theme{
-    /*===== colors =====*/
-    --primary-color: #5A8EF6;
-    --bg-color: #0F0F0F;
-    --bg-light-color: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
-    --text-color: #FFFFFF;
-    --text-light-color: #BCBCBC;
-    --link-color: #676767;
-    --link-active-color: #FFFFFF;
-    --btn-color: #323232;
-    --btn-active-color: #FFFFFF;
-    --card-bg: #0F0F0F;
-    --before-color: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
-}
-
 /* body */
 body {
     font-family: var(--body-font);
@@ -277,6 +261,20 @@ body {
     background: var(--card-bg);
     position: relative;
     overflow: hidden;
+    z-index: 0;
+}
+
+.card::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--before-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.25;
 }
 
 .card__subtitle {
