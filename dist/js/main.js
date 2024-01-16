@@ -10,3 +10,6 @@ navToggle.addEventListener('click', () => {
 navClose.addEventListener('click', () => {
     navMenu.classList.remove('show-menu')
 })
+
+// ===== aos animation =====
+AOS.init();
