@@ -237,6 +237,7 @@ body {
 /* foorter */
 .footer__menu__link {
     color: var(--link-color);
+    transition: .3s;
 }
 
 .footer__menu__link:hover {
