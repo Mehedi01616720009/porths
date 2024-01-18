@@ -156,6 +156,29 @@ body {
     width: 36px;
 }
 
+/* foorter */
+.footer__menu__link {
+    color: var(--link-color);
+    transition: .3s;
+}
+
+.footer__menu__link:hover {
+    color: var(--link-active-color);
+}
+
+.footer__menu__link.active {
+    color: var(--link-active-color);
+}
+
+.copyright__text {
+    color: var(--text-light-color);
+}
+
+.copyright__text span {
+    color: var(--link-active-color);
+}
+
+/* home page */
 /* main */
 /* profile card */
 .profile__card__content {
@@ -234,26 +257,74 @@ body {
     color: var(--primary-color);
 }
 
-/* foorter */
-.footer__menu__link {
-    color: var(--link-color);
-    transition: .3s;
-}
-
-.footer__menu__link:hover {
+/* contact page */
+/* main */
+/* contact info card */
+.contact__info__card__content {
+    width: 58px;
+    height: 58px;
+    background: var(--card-bg);
     color: var(--link-active-color);
+    font-size: 25px;
 }
 
-.footer__menu__link.active {
-    color: var(--link-active-color);
+@media screen and (min-width: 768px) {
+    .contact__info__card__content {
+        width: 68px;
+        height: 68px;
+        font-size: 30px;
+    }
 }
 
-.copyright__text {
+.contact__info__card__data p {
     color: var(--text-light-color);
 }
 
-.copyright__text span {
+.contact__info__socials a {
+    width: 50px;
+    height: 50px;
+    background: var(--card-bg);
     color: var(--link-active-color);
+    font-size: 1.25rem;
+    transition: .3s;
+}
+
+@media screen and (min-width: 768px) {
+    .contact__info__socials a {
+        width: 82px;
+        height: 82px;
+        font-size: 2rem;
+    }
+}
+
+.contact__info__socials a:hover {
+    color: var(--text-color);
+}
+
+/* contact form card */
+@media screen and (min-width: 768px) {
+    .contact__form__card {
+        width: 100%;
+    }
+}
+
+.contact__form__card h2 span {
+    color: var(--primary-color);
+}
+
+.contact__form__card input, 
+.contact__form__card textarea {
+    background: var(--bg-light-color);
+    color: var(--text-color);
+}
+
+.contact__form__card button {
+    background: var(--btn-color);
+    transition: .3s;
+}
+
+.contact__form__card button:hover {
+    background: var(--btn-active-color);
 }
 
 /* components */

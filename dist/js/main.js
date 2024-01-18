@@ -12,4 +12,7 @@ navClose.addEventListener('click', () => {
 })
 
 // ===== aos animation =====
-AOS.init();
+AOS.init({
+    duration: 1500,
+    once: true,
+});

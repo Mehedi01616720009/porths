@@ -63,237 +63,92 @@
 
 <!--======== main ========-->
 <main class="grid gap-6 pt-20">
-    <!--==== profile, about, projects card | home first row ====-->
-    <section class="home__first__row">
-        <div class="container grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <!--== profile card ==-->
-            <div class="card grid grid-cols-1 md:grid-cols-5 lg:grid-cols-2 items-center gap-7 px-7 py-10 xl:px-11 xl:py-12 rounded-3xl" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                <!-- card link overlay -->
-                <a href="about.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+    <!--==== contact info, contact form | contact page row ====-->
+    <section class="contact__page__row">
+        <div class="container flex flex-col md:flex-row gap-6 xl:gap-20">
+            <!--== contact info card ==-->
+            <div class="contact__info__card">
+                <h3 class="text-base uppercase font-medium mb-7" data-aos="fade-up">contact info</h3>
 
-                <!-- profile card content > image -->
-                <div class="profile__card__content md:col-span-2 lg:col-span-1 rounded-tl-3xl rounded-br-3xl mx-auto overflow-hidden">
-                    <img src="images/3.jpg" alt="" class="w-full">
-                </div>
-
-                <!-- profile card data > h6, h3, p infos -->
-                <div class="profile__card__data md:col-span-3 lg:col-span-1 pr-5">
-                    <h6 class="profile__card__designation text-sm uppercase font-medium mb-1">a web designer</h6>
-
-                    <h3 class="profile__card__name text-3xl md:text-4xl capitalize font-semibold mb-3">mehedi hasan mim.</h3>
-
-                    <p class="text-sm">I am a Web Designer based in san fransisco.</p>
-                </div>
-
-                <button class="card__button flex items-center text-4xl absolute bottom-4 right-6">
-                    <i class="iconoir-dot-arrow-right"></i>
-                </button>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
-                <!--== marquee element ==-->
-                <div class="card h-max md:col-span-2 px-6 py-4 rounded-3xl uppercase" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                    <div class="marquee flex flex-nowrap gap-2 text-xs overflow-x-hidden">
-                        <div>
-                            <span>
-                                see my work and <span class="highlight">featured</span>
-                            </span>
-        
-                            <span>|</span>
-        
-                            <span>
-                                review my work and <span class="highlight">rated</span>
-                            </span>
-        
-                            <span>|</span>
-        
-                            <span>
-                                subscribe my portfolio for <span class="highlight">latest</span>
-                            </span>
-        
-                            <span>|</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!--== about card ==-->
-                <div class="card grid gap-4 rounded-3xl p-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                    <!-- card link overlay -->
-                    <a href="profile.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
-                    
-                    <!-- about card content > image -->
-                    <div class="about__card__content overflow-hidden">
-                        <img src="images/signature.png" alt="" class="w-full opacity-40">
-                    </div>
-
-                    <!-- about card data -->
-                    <div class="about__card__data flex justify-between items-center">
-                        <div>
-                            <h6 class="card__subtitle text-xs uppercase font-medium mb-3">more about me</h6>
-
-                            <h3 class="card__title text-xl capitalize font-semibold mb-2">credentials</h3>
+                <!-- contact info -->
+                <ul class="contact__info__list grid gap-10 md:gap-16 mb-14">
+                    <li class="flex items-center gap-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+                        <div class="contact__info__card__content flex justify-center items-center rounded-lg">
+                            <i class="iconoir-mail"></i>
                         </div>
 
-                        <button class="card__button text-4xl">
-                            <i class="iconoir-dot-arrow-right"></i>
-                        </button>
-                    </div>
-                </div>
+                        <div class="contact__info__card__data">
+                            <p class="text-sm uppercase mb-1">mail us</p>
+                            <h4 class="text-base font-medium">support@hasancode.com</h4>
+                        </div>
+                    </li>
 
-                <!--== project card ==-->
-                <div class="card grid gap-4 rounded-3xl p-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                    <!-- card link overlay -->
-                    <a href="work.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
-                    
-                    <!-- project card content > image -->
-                    <div class="project__card__content rounded-2xl overflow-hidden">
-                        <img src="images/5.jpg" alt="" class="w-full">
-                    </div>
-
-                    <!-- project card data -->
-                    <div class="project__card__data flex justify-between items-center">
-                        <div>
-                            <h6 class="card__subtitle text-xs uppercase font-medium mb-3">showcase</h6>
-
-                            <h3 class="card__title text-xl capitalize font-semibold mb-2">projects</h3>
+                    <li class="flex items-center gap-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+                        <div class="contact__info__card__content flex justify-center items-center rounded-lg">
+                            <i class="iconoir-phone"></i>
                         </div>
 
-                        <button class="card__button text-4xl">
-                            <i class="iconoir-dot-arrow-right"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <div class="contact__info__card__data">
+                            <p class="text-sm uppercase mb-1">contact us</p>
+                            <h4 class="text-base font-medium">+880 1616-720009</h4>
+                        </div>
+                    </li>
 
-    <!--==== blog, service, social card | home second row ====-->
-    <section class="home__second__row">
-        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!--== blog card ==-->
-            <div class="card grid gap-4 rounded-3xl p-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                <!-- card link overlay -->
-                <a href="blog.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
-                
-                <!-- blog card content > image -->
-                <div class="blog__card__content rounded-2xl overflow-hidden">
-                    <img src="images/6.jpg" alt="" class="w-full">
-                </div>
+                    <li class="flex items-center gap-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+                        <div class="contact__info__card__content flex justify-center items-center rounded-lg">
+                            <i class="iconoir-map-pin"></i>
+                        </div>
 
-                <!-- blog card data -->
-                <div class="blog__card__data flex justify-between items-center">
-                    <div>
-                        <h6 class="card__subtitle text-xs uppercase font-medium mb-3">blog</h6>
+                        <div class="contact__info__card__data">
+                            <p class="text-sm uppercase mb-1">location</p>
+                            <h4 class="text-base font-medium">Mohammadpur, Dhaka</h4>
+                        </div>
+                    </li>
+                </ul>
 
-                        <h3 class="card__title text-xl capitalize font-semibold mb-2">articles</h3>
-                    </div>
+                <h3 class="text-base uppercase font-medium mb-7" data-aos="fade-up">social info</h3>
 
-                    <button class="card__button text-4xl">
-                        <i class="iconoir-dot-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-
-            <!--== service card ==-->
-            <div class="card grid gap-4 lg:col-span-2 rounded-3xl p-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                <!-- card link overlay -->
-                <a href="service.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
-                
-                <!-- service card content > image -->
-                <div class="service__card__content flex justify-center items-center gap-6 md:gap-10 lg:gap-20 text-3xl mt-8 mb-6">
-                    <i class="iconoir-camera"></i>
-                    <i class="iconoir-design-pencil"></i>
-                    <i class="iconoir-leaf"></i>
-                    <!-- <i class="iconoir-color-filter"></i> -->
-                    <i class="iconoir-mobile-dev-mode"></i>
-                </div>
-
-                <!-- service card data -->
-                <div class="service__card__data flex justify-between items-center">
-                    <div>
-                        <h6 class="card__subtitle text-xs uppercase font-medium mb-3">specialization</h6>
-
-                        <h3 class="card__title text-xl capitalize font-semibold mb-2">service offering</h3>
-                    </div>
-
-                    <button class="card__button text-4xl">
-                        <i class="iconoir-dot-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-
-            <!--== social card ==-->
-            <div class="card grid gap-4 md:col-span-2 lg:col-span-1 rounded-3xl p-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                <!-- card link overlay -->
-                <a href="contact.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer"></a>
-                
-                <!-- social card content > image -->
-                <div class="social__card__content flex justify-center items-center gap-4 text-2xl md:text-3xl p-4 rounded-2xl">
-                    <a href="" class="w-16 h-16 flex justify-center items-center rounded-full relative">
+                <!-- social info -->
+                <ul class="contact__info__socials flex items-center gap-5" data-aos="zoom-in">
+                    <a href="" class="flex justify-center items-center rounded-full">
                         <i class="iconoir-dribbble"></i>
                     </a>
 
-                    <a href="" class="w-16 h-16 flex justify-center items-center rounded-full relative">
+                    <a href="" class="flex justify-center items-center rounded-full">
                         <i class="iconoir-twitter"></i>
                     </a>
-                </div>
 
-                <!-- social card data -->
-                <div class="social__card__data flex justify-between items-center">
+                    <a href="" class="flex justify-center items-center rounded-full">
+                        <i class="iconoir-instagram"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <!--== contact form card ==-->
+            <div class="contact__form__card card pt-14 px-5 pb-7 md:p-10 mt-12 md:mt-0 rounded-3xl" data-aos="zoom-in">
+                <h2 class="text-3xl md:text-5xl font-medium mb-7">Let's work <span>together.</span></h2>
+
+                <form action="" method="post" class="grid gap-4">
                     <div>
-                        <h6 class="card__subtitle text-xs uppercase font-medium mb-3">stay with me</h6>
-
-                        <h3 class="card__title text-xl capitalize font-semibold mb-2">profiles</h3>
+                        <input type="text" name="" id="" class="w-full px-5 py-4 text-sm rounded-lg" placeholder="Name*">
                     </div>
 
-                    <button class="card__button text-4xl">
-                        <i class="iconoir-dot-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div>
+                        <input type="email" name="" id="" class="w-full px-5 py-4 text-sm rounded-lg" placeholder="Email*">
+                    </div>
 
-    <!--==== experience, contact card | home third row ====-->
-    <section class="home__third__row">
-        <div class="container grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-2 gap-6">
-            <!--== experience card ==-->
-            <div class="card grid md:grid-cols-3 gap-6 lg:col-span-3 xl:col-span-1 rounded-3xl p-5 text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                <!-- experience card data -->
-                <div class="experience__card__data rounded-2xl px-2 py-10">
-                    <h3 class="text-2xl lg:text-4xl font-medium mb-3">03+</h3>
-                    <p class="text-xs uppercase">years <br>experience</p>
-                </div>
+                    <div>
+                        <input type="text" name="" id="" class="w-full px-5 py-4 text-sm rounded-lg" placeholder="Subject*">
+                    </div>
 
-                <!-- experience card data -->
-                <div class="experience__card__data rounded-2xl px-2 py-10">
-                    <h3 class="text-2xl lg:text-4xl font-medium mb-3">50+</h3>
-                    <p class="text-xs uppercase">clients <br>worldwide</p>
-                </div>
+                    <div>
+                        <textarea name="" id="" rows="5" class="w-full px-5 py-4 text-sm rounded-lg" placeholder="Your Message*"></textarea>
+                    </div>
 
-                <!-- experience card data -->
-                <div class="experience__card__data rounded-2xl px-2 py-10">
-                    <h3 class="text-2xl lg:text-4xl font-medium mb-3">74+</h3>
-                    <p class="text-xs uppercase">projects <br>complete</p>
-                </div>
-            </div>
-
-            <!--== contact card ==-->
-            <div class="card grid gap-4 lg:col-span-2 xl:col-span-1 rounded-3xl pt-20 px-5 pb-10" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                <!-- card link overlay -->
-                <a href="contact.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
-
-                <!-- contact card data -->
-                <div class="contact__card__data flex justify-between items-center">
-                    <h1 class="text-3xl md:text-5xl font-medium">
-                        Let's <br>
-                        work <span>together</span>
-                    </h1>
-                </div>
-
-                <button class="card__button flex items-center text-4xl absolute bottom-9 right-6">
-                    <i class="iconoir-dot-arrow-right"></i>
-                </button>
+                    <div>
+                        <button type="submit" class="w-full px-7 py-4 rounded-lg text-sm text-white mb-4">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
