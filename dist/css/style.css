@@ -1097,6 +1097,10 @@ video {
     gap: 5rem;
   }
 
+  .xl\:p-6 {
+    padding: 1.5rem;
+  }
+
   .xl\:px-11 {
     padding-left: 2.75rem;
     padding-right: 2.75rem;

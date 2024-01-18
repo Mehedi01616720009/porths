@@ -234,6 +234,14 @@ body {
     transition: .3s;
 }
 
+@media screen and (min-width: 1280px) {
+    .social__card__content a {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+}
+
 .social__card__content a:hover {
     color: var(--text-color);
 }
