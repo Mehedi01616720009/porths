@@ -16,11 +16,23 @@
     --body-font: 'Inter', sans-serif;
 }
 
+/* initializing */
 /* body */
 body {
     font-family: var(--body-font);
     background: var(--bg-color);
     color: var(--text-color);
+}
+
+/* input */
+input {
+    outline: 0;
+}
+
+/* button & anchor */
+button, 
+a {
+    transition: all .3s ease-in-out;
 }
 
 /* container */
@@ -159,7 +171,6 @@ body {
 /* foorter */
 .footer__menu__link {
     color: var(--link-color);
-    transition: .3s;
 }
 
 .footer__menu__link:hover {
@@ -231,7 +242,6 @@ body {
 .social__card__content a {
     background: var(--card-bg);
     color: var(--link-active-color);
-    transition: .3s;
 }
 
 @media screen and (min-width: 1280px) {
@@ -294,7 +304,6 @@ body {
     background: var(--card-bg);
     color: var(--link-active-color);
     font-size: 1.25rem;
-    transition: .3s;
 }
 
 @media screen and (min-width: 768px) {
@@ -328,10 +337,58 @@ body {
 
 .contact__form__card button {
     background: var(--btn-color);
-    transition: .3s;
 }
 
 .contact__form__card button:hover {
+    background: var(--btn-active-color);
+}
+
+/* blog page */
+/* main */
+/* page title */
+.page__subtitle {
+    color: var(--text-light-color);
+}
+
+/* blog sidebar */
+.blog__post__item__meta {
+    color: var(--primary-color);
+}
+
+.blog__post__item__substring {
+    color: var(--text-light-color);
+}
+
+/* blog sidebar */
+/* sidebar search form */
+.blog__sidebar__search__form {
+    background: var(--card-bg);
+}
+
+.blog__sidebar__search__form button {
+    background: var(--btn-color);
+}
+
+.blog__sidebar__search__form button:hover {
+    background: var(--btn-active-color);
+}
+
+/* sidebar recent posts & categories */
+.blog__sidebar__recent__post__item p, 
+.blog__sidebar__recent__category__item {
+    color: var(--link-color);
+}
+
+.blog__sidebar__recent__post__item:hover p, 
+.blog__sidebar__recent__category__item:hover {
+    color: var(--link-active-color);
+}
+
+.blog__sidebar__recent__tags__item {
+    background: var(--btn-color);
+}
+
+.blog__sidebar__recent__tags__item:hover {
     background: var(--btn-active-color);
 }
 
