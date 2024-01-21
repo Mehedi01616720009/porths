@@ -24,9 +24,15 @@ body {
     color: var(--text-color);
 }
 
-/* input */
-input {
+/* input & textarea */
+input, 
+textarea {
     outline: 0;
+}
+
+/* textarea */
+textarea {
+    resize: none;
 }
 
 /* button & anchor */
@@ -275,6 +281,94 @@ a {
     color: var(--primary-color);
 }
 
+/* blog page */
+/* main */
+/* page title */
+.page__subtitle {
+    color: var(--text-light-color);
+}
+
+/* blog post grid */
+.blog__post__item__meta {
+    color: var(--primary-color);
+}
+
+.blog__post__item__substring {
+    color: var(--text-light-color);
+}
+
+/* blog sidebar */
+/* sidebar search form */
+.blog__sidebar__search__form {
+    background: var(--card-bg);
+}
+
+.blog__sidebar__search__form button {
+    background: var(--btn-color);
+}
+
+.blog__sidebar__search__form button:hover {
+    background: var(--btn-active-color);
+}
+
+/* sidebar recent posts & categories */
+.blog__sidebar__recent__post__item p, 
+.blog__sidebar__recent__category__item {
+    color: var(--link-color);
+}
+
+.blog__sidebar__recent__post__item:hover p, 
+.blog__sidebar__recent__category__item:hover {
+    color: var(--link-active-color);
+}
+
+.blog__sidebar__recent__tags__item {
+    background: var(--btn-color);
+}
+
+.blog__sidebar__recent__tags__item:hover {
+    background: var(--btn-active-color);
+}
+
+/* single blog page */
+/* main */
+/* single blog post */
+.single__blog__meta {
+    color: var(--link-active-color);
+}
+
+.single__blog__description {
+    color: var(--text-light-color);
+}
+
+/* single blog comments */
+.comment__card {
+    border-bottom: 1px solid var(--text-light-color);
+}
+
+.comment__date {
+    color: var(--link-active-color);
+}
+
+.comment__data {
+    color: var(--text-light-color);
+}
+
+/* single blog comment form */
+.comment__form input, 
+.comment__form textarea {
+    background: var(--bg-light-color);
+    color: var(--text-color);
+}
+
+.comment__form button {
+    background: var(--btn-color);
+}
+
+.comment__form button:hover {
+    background: var(--btn-active-color);
+}
+
 /* contact page */
 /* main */
 /* contact info card */
@@ -340,55 +434,6 @@ a {
 }
 
 .contact__form__card button:hover {
-    background: var(--btn-active-color);
-}
-
-/* blog page */
-/* main */
-/* page title */
-.page__subtitle {
-    color: var(--text-light-color);
-}
-
-/* blog sidebar */
-.blog__post__item__meta {
-    color: var(--primary-color);
-}
-
-.blog__post__item__substring {
-    color: var(--text-light-color);
-}
-
-/* blog sidebar */
-/* sidebar search form */
-.blog__sidebar__search__form {
-    background: var(--card-bg);
-}
-
-.blog__sidebar__search__form button {
-    background: var(--btn-color);
-}
-
-.blog__sidebar__search__form button:hover {
-    background: var(--btn-active-color);
-}
-
-/* sidebar recent posts & categories */
-.blog__sidebar__recent__post__item p, 
-.blog__sidebar__recent__category__item {
-    color: var(--link-color);
-}
-
-.blog__sidebar__recent__post__item:hover p, 
-.blog__sidebar__recent__category__item:hover {
-    color: var(--link-active-color);
-}
-
-.blog__sidebar__recent__tags__item {
-    background: var(--btn-color);
-}
-
-.blog__sidebar__recent__tags__item:hover {
     background: var(--btn-active-color);
 }
 

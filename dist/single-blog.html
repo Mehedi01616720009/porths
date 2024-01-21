@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--======== google font ========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--======== iconoir icons css ========-->
+    <link rel="stylesheet" href="css/iconoir.css">
+
+    <!--======== aos animation css ========-->
+    <link rel="stylesheet" href="css/aos-animation.css">
+
+    <!--======== style css ========-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--======== custom css ========-->
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--======== header ========-->
+<header>
+    <!--==== header container ====-->
+    <div class="header__container container flex justify-between items-center mt-3 py-5 md:py-0">
+        <!--== logo ==-->
+        <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter">Port<span>HS</span></a>
+
+        <!--== menu ==-->
+        <div class="nav__menu flex flex-col md:flex-row md:justify-between md:items-center md:gap-14 text-base" id="nav-menu">
+            <!-- nav close -->
+            <div class="nav__close md:hidden" id="nav-close"></div>
+
+            <!-- sidebar logo -->
+            <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter mb-4 md:hidden">Port<span>HS</span></a>
+
+            <!-- menu links -->
+            <a href="index.html" class="nav__link py-4 md:py-6">Home</a>
+            <a href="about.html" class="nav__link py-4 md:py-6">About</a>
+            <a href="works.html" class="nav__link py-4 md:py-6">Works</a>
+            <a href="contact.html" class="nav__link py-4 md:py-6">Contact</a>
+        </div>
+
+        <!--== contact, toggle button ==-->
+        <div class="nav__short__menu flex items-center gap-3">
+            <!-- contact button -->
+            <a href="contact.html" class="nav__btn px-4 py-2 md:px-7 rounded-lg md:rounded-2xl text-white font-medium">Let's talk</a>
+
+            <!-- toggle button -->
+            <div class="nav__toggle flex flex-col items-center cursor-pointer md:hidden" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--======== main ========-->
+<main class="grid gap-6 pt-20">
+    <!--==== single blog, sidebar | single blog page row ====-->
+    <section class="blog__page__row">
+        <div class="container" data-aos="fade-up">
+            <p class="page__subtitle text-sm uppercase mb-5">blog details</p>
+            <h2 class="page__title text-2xl md:text-5xl font-semibold uppercase mb-7">single article</h2>
+        </div>
+
+        <div class="container grid md:grid-cols-9 lg:grid-cols-10 gap-12 md:gap-6 pt-10 md:pt-20">
+            <!--== single blog ==-->
+            <div class="single__blog md:h-max md:col-span-5 lg:col-span-6">
+                <!-- single blog content -->
+                <div class="single__blog__content mb-12">
+                    <img src="images/6.jpg" alt="" class="w-full rounded-2xl">
+                </div>
+
+                <p class="single__blog__meta text-sm mb-2">
+                    20 Jan 2024 - Comments (4) - Share (7)
+                </p>
+
+                <h3 class="text-xl font-medium mb-6">
+                    Consulted admitting is power acuteness.
+                </h3>
+
+                <div class="single__blog__description grid gap-7 mb-7">
+                    <p>
+                        Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor rhoncus dolor purus non enim praesent in elementum sahas facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etisam dignissim diam quis enim lobortis viverra orci sagittis eu volutpat odio facilisis mauris sit.
+                    </p>
+
+                    <p>
+                        Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Giy direction neglected but supported yet her.
+                    </p>
+
+                    <p>
+                        New had happen unable uneasy. Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                    </p>
+
+                    <ul class="grid gap-6">
+                        <li>- Pretty merits waited six</li>
+                        <li>- General few civilly amiable pleased account carried.</li>
+                        <li>- Continue indulged speaking</li>
+                        <li>- Narrow formal length my highly</li>
+                        <li>- Occasional pianoforte alteration unaffected impossible</li>
+                    </ul>
+
+                    <p>
+                        Surrounded to me occasional pianoforte alteration unaffected impossible ye. For saw half than cold. Pretty merits waited.
+                    </p>
+                </div>
+
+                <div class="blog__sidebar__tags flex flex-wrap gap-2 mb-12">
+                    <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                        SAAS
+                    </a>
+
+                    <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                        Development
+                    </a>
+                </div>
+
+                <div class="card px-7 py-10 rounded-3xl">
+                    <h3 class="text-2xl font-medium mb-8">3 Comments</h3>
+
+                    <ul class="comments grid">
+                        <li class="comment__card mb-7 pb-8">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-14 h-14 rounded-full overflow-hidden">
+                                    <img src="images/2.jpg" alt="" class="w-full h-full object-cover object-center">
+                                </div>
+
+                                <div>
+                                    <p class="comment__date text-xs font-medium mb-1">20 Jan 2024</p>
+
+                                    <h4 class="text-base">Alauddin Islam</h4>
+                                </div>
+                            </div>
+
+                            <p class="comment__data lg:pl-16">
+                                Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor rhoncus dolor purus no odio facilisis mauris sit.
+                            </p>
+                        </li>
+
+                        <li class="comment__card mb-7 pb-8">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-14 h-14 rounded-full overflow-hidden">
+                                    <img src="images/2.jpg" alt="" class="w-full h-full object-cover object-center">
+                                </div>
+
+                                <div>
+                                    <p class="comment__date text-xs font-medium mb-1">20 Jan 2024</p>
+
+                                    <h4 class="text-base">Alauddin Islam</h4>
+                                </div>
+                            </div>
+
+                            <p class="comment__data lg:pl-16">
+                                Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor rhoncus dolor purus no odio facilisis mauris sit.
+                            </p>
+                        </li>
+
+                        <li class="comment__card mb-7 pb-8">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-14 h-14 rounded-full overflow-hidden">
+                                    <img src="images/2.jpg" alt="" class="w-full h-full object-cover object-center">
+                                </div>
+
+                                <div>
+                                    <p class="comment__date text-xs font-medium mb-1">20 Jan 2024</p>
+
+                                    <h4 class="text-base">Alauddin Islam</h4>
+                                </div>
+                            </div>
+
+                            <p class="comment__data lg:pl-16">
+                                Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor rhoncus dolor purus no odio facilisis mauris sit.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h3 class="text-2xl font-medium mb-8">Leave a reply</h3>
+
+                    <div class="comment__form">
+                        <form action="" method="post" class="grid gap-4">
+                            <div>
+                                <input type="text" name="" id="" class="w-full px-5 py-4 text-sm rounded-lg" placeholder="Name*">
+                            </div>
+        
+                            <div>
+                                <input type="email" name="" id="" class="w-full px-5 py-4 text-sm rounded-lg" placeholder="Email*">
+                            </div>
+        
+                            <div>
+                                <textarea name="" id="" rows="5" class="w-full px-5 py-4 text-sm rounded-lg" placeholder="Your Message*"></textarea>
+                            </div>
+        
+                            <div>
+                                <button type="submit" class="w-full px-7 py-4 rounded-lg text-sm text-white mb-4">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--== blog sidebar ==-->
+            <div class="blog__sidebar md:h-max grid md:col-span-4 lg:col-span-4 gap-10">
+                <!-- sidebar search form -->
+                <div data-aos="zoom-in">
+                    <form action="" method="get" class="blog__sidebar__search__form flex justify-between items-center gap-2 rounded-full p-2">
+                        <div>
+                            <input type="text" name="" id="" class="w-full text-base pl-4 pr-2" placeholder="Search Here...">
+                        </div>
+    
+                        <div>
+                            <button type="submit" class="font-medium px-7 py-2 rounded-full text-white font-medium">Search</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- sidebar recent post -->
+                <div class="card pt-12 px-7 pb-16 rounded-3xl" data-aos="zoom-in">
+                    <h4 class="text-lg font-medium uppercase mb-7">recent posts</h4>
+
+                    <div class="blog__sidebar__recent__posts grid gap-5">
+                        <a href="single-blog.html" class="blog__sidebar__recent__post__item grid grid-cols-5 items-start gap-3">
+                            <div class="col-span-2">
+                                <img src="images/6.jpg" alt="" class="w-full rounded">
+                            </div>
+
+                            <div class="col-span-3">
+                                <p class="text-sm font-medium">
+                                    20 Best Tweets of All Time About article
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="single-blog.html" class="blog__sidebar__recent__post__item grid grid-cols-5 items-start gap-3">
+                            <div class="col-span-2">
+                                <img src="images/6.jpg" alt="" class="w-full rounded">
+                            </div>
+
+                            <div class="col-span-3">
+                                <p class="text-sm font-medium">
+                                    What the Best article Pros Do (and You Should Too)
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="single-blog.html" class="blog__sidebar__recent__post__item grid grid-cols-5 items-start gap-3">
+                            <div class="col-span-2">
+                                <img src="images/6.jpg" alt="" class="w-full rounded">
+                            </div>
+
+                            <div class="col-span-3">
+                                <p class="text-sm font-medium">
+                                    5 Real-Life Lessons About article
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="single-blog.html" class="blog__sidebar__recent__post__item grid grid-cols-5 items-start gap-3">
+                            <div class="col-span-2">
+                                <img src="images/6.jpg" alt="" class="w-full rounded">
+                            </div>
+
+                            <div class="col-span-3">
+                                <p class="text-sm font-medium">
+                                    article: Expectations vs. Reality
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- sidebar category -->
+                <div class="card pt-12 px-7 pb-16 rounded-3xl" data-aos="zoom-in">
+                    <h4 class="text-lg font-medium uppercase mb-7">categories</h4>
+
+                    <div class="blog__sidebar__categories grid gap-5">
+                        <a href="category.html" class="blog__sidebar__recent__category__item">
+                            - Analysis
+                        </a>
+
+                        <a href="category.html" class="blog__sidebar__recent__category__item">
+                            - Firewall
+                        </a>
+
+                        <a href="category.html" class="blog__sidebar__recent__category__item">
+                            - IT Solution
+                        </a>
+
+                        <a href="category.html" class="blog__sidebar__recent__category__item">
+                            - Security
+                        </a>
+
+                        <a href="category.html" class="blog__sidebar__recent__category__item">
+                            - Technology
+                        </a>
+                    </div>
+                </div>
+
+                <!-- sidebar tags -->
+                <div class="card pt-12 px-7 pb-16 rounded-3xl" data-aos="zoom-in">
+                    <h4 class="text-lg font-medium uppercase mb-7">tags</h4>
+
+                    <div class="blog__sidebar__tags flex flex-wrap gap-2">
+                        <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                            SAAS
+                        </a>
+
+                        <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                            Development
+                        </a>
+
+                        <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                            UI/UX
+                        </a>
+
+                        <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                            Web
+                        </a>
+
+                        <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                            Figma
+                        </a>
+
+                        <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                            Java
+                        </a>
+
+                        <a href="tags.html" class="blog__sidebar__recent__tags__item px-5 py-2 rounded-xl text-sm text-white font-medium">
+                            WordPress
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--======== footer ========-->
+<footer>
+    <!--==== footer container ====-->
+    <div class="footer__container container text-center pt-32 pb-20">
+        <!--== logo ==-->
+        <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter">Port<span>HS</span></a>
+        
+        <!--== menu ==-->
+        <ul class="footer__menu flex flex-wrap justify-center items-center gap-6 mt-8 mb-9 text-xs uppercase font-semibold">
+            <li>
+                <a href="index.html" class="footer__menu__link">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html" class="footer__menu__link">About</a>
+            </li>
+
+            <li>
+                <a href="works.html" class="footer__menu__link">Works</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="footer__menu__link">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright__text text-sm">&copy; All rights reserved by <span>HasanCode</span></p>
+    </div>
+</footer>
+
+<!--======== aos animation js ========-->
+<script src="js/aos-animation.js"></script>
+
+<!--======== custom js ========-->
+<script src="js/main.js"></script>
+</body>
+</html>
