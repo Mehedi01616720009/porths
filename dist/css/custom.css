@@ -369,6 +369,21 @@ a {
     background: var(--btn-active-color);
 }
 
+/* service page */
+/* main */
+/* service short list */
+.service__short__list i {
+    color: var(--link-active-color);
+}
+
+.service__card {
+    background: var(--bg-light-color);
+}
+
+.service__card p {
+    color: var(--text-light-color);
+}
+
 /* contact page */
 /* main */
 /* contact info card */

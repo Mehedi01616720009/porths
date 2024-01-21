@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--======== google font ========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--======== iconoir icons css ========-->
+    <link rel="stylesheet" href="css/iconoir.css">
+
+    <!--======== aos animation css ========-->
+    <link rel="stylesheet" href="css/aos-animation.css">
+
+    <!--======== style css ========-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--======== custom css ========-->
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--======== header ========-->
+<header>
+    <!--==== header container ====-->
+    <div class="header__container container flex justify-between items-center mt-3 py-5 md:py-0">
+        <!--== logo ==-->
+        <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter">Port<span>HS</span></a>
+
+        <!--== menu ==-->
+        <div class="nav__menu flex flex-col md:flex-row md:justify-between md:items-center md:gap-14 text-base" id="nav-menu">
+            <!-- nav close -->
+            <div class="nav__close md:hidden" id="nav-close"></div>
+
+            <!-- sidebar logo -->
+            <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter mb-4 md:hidden">Port<span>HS</span></a>
+
+            <!-- menu links -->
+            <a href="index.html" class="nav__link active py-4 md:py-6">Home</a>
+            <a href="about.html" class="nav__link py-4 md:py-6">About</a>
+            <a href="works.html" class="nav__link py-4 md:py-6">Works</a>
+            <a href="contact.html" class="nav__link py-4 md:py-6">Contact</a>
+        </div>
+
+        <!--== contact, toggle button ==-->
+        <div class="nav__short__menu flex items-center gap-3">
+            <!-- contact button -->
+            <a href="contact.html" class="nav__btn px-4 py-2 md:px-7 rounded-lg md:rounded-2xl text-white font-medium">Let's talk</a>
+
+            <!-- toggle button -->
+            <div class="nav__toggle flex flex-col items-center cursor-pointer md:hidden" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--======== main ========-->
+<main class="grid gap-6 pt-20">
+    <!--==== service cards | service row ====-->
+    <section class="service__first__row">
+        <div class="container" data-aos="fade-up">
+            <h2 class="page__title text-2xl md:text-3xl font-semibold text-center uppercase mb-7 xl:hidden">my offerings</h2>
+        </div>
+
+        <div class="container grid xl:grid-cols-3 gap-7">
+            <!--== service sidebar card ==-->
+            <div class="card px-6 py-12 xl:px-12 xl:py-24 rounded-3xl" data-aos="fade-right">
+                <!-- service short list -->
+                <ul class="service__short__list grid md:grid-cols-2 xl:grid-cols-1 gap-12 xl:gap-20 mx-7 xl:m-0">
+                    <li class="flex items-center gap-10 uppercase">
+                        <i class="iconoir-camera text-3xl"></i>
+
+                        <p class="text-base">photography</p>
+                    </li>
+                    
+                    <li class="flex items-center gap-10 uppercase">
+                        <i class="iconoir-design-pencil text-3xl"></i>
+
+                        <p class="text-base">web designing</p>
+                    </li>
+
+                    <li class="flex items-center gap-10 uppercase">
+                        <i class="iconoir-leaf text-3xl"></i>
+
+                        <p class="text-base">branding</p>
+                    </li>
+
+                    <li class="flex items-center gap-10 uppercase">
+                        <i class="iconoir-mobile-dev-mode text-3xl"></i>
+
+                        <p class="text-base">development</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="xl:col-span-2">
+                <h2 class="page__title text-7xl font-semibold text-center uppercase mt-2 mb-3 hidden xl:block" data-aos="fade-up">my offerings</h2>
+
+                <!--== service cards ==-->
+                <div class="card grid lg:grid-cols-2 gap-6 p-7 rounded-3xl" data-aos="zoom-in">
+                    <!-- service card -->
+                    <div class="service__card pt-6 pr-12 pb-7 xl:pb-14 pl-7 rounded-3xl">
+                        <h4 class="text-sm font-medium uppercase mb-2">photography</h4>
+
+                        <p class="text-sm leading-6">
+                            Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor asna rhoncus dolor purus non enim aberitin praesent in elementum sahas facilisis leo, vel fringilla est etisam dignissim.
+                        </p>
+                    </div>
+
+                    <!-- service card -->
+                    <div class="service__card pt-6 pr-12 pb-7 xl:pb-14 pl-7 rounded-3xl">
+                        <h4 class="text-sm font-medium uppercase mb-2">web designing</h4>
+
+                        <p class="text-sm leading-6">
+                            Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor asna rhoncus dolor purus non enim aberitin praesent in elementum sahas facilisis leo, vel fringilla est etisam dignissim.
+                        </p>
+                    </div>
+
+                    <!-- service card -->
+                    <div class="service__card pt-6 pr-12 pb-7 xl:pb-14 pl-7 rounded-3xl">
+                        <h4 class="text-sm font-medium uppercase mb-2">branding</h4>
+
+                        <p class="text-sm leading-6">
+                            Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor asna rhoncus dolor purus non enim aberitin praesent in elementum sahas facilisis leo, vel fringilla est etisam dignissim.
+                        </p>
+                    </div>
+
+                    <!-- service card -->
+                    <div class="service__card pt-6 pr-12 pb-7 xl:pb-14 pl-7 rounded-3xl">
+                        <h4 class="text-sm font-medium uppercase mb-2">development</h4>
+
+                        <p class="text-sm leading-6">
+                            Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor asna rhoncus dolor purus non enim aberitin praesent in elementum sahas facilisis leo, vel fringilla est etisam dignissim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==== service cards | service page last row ====-->
+    <section class="home__second__row">
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!--== about card ==-->
+            <div class="card grid gap-4 rounded-3xl p-5 xl:p-6" data-aos="zoom-in">
+                <!-- card link overlay -->
+                <a href="profile.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+                
+                <!-- about card content > image -->
+                <div class="about__card__content overflow-hidden">
+                    <img src="images/signature.png" alt="" class="w-full opacity-40">
+                </div>
+
+                <!-- about card data -->
+                <div class="about__card__data flex justify-between items-center">
+                    <div>
+                        <h6 class="card__subtitle text-xs uppercase font-medium mb-3">more about me</h6>
+
+                        <h3 class="card__title text-xl capitalize font-semibold mb-2">credentials</h3>
+                    </div>
+
+                    <button class="card__button text-4xl">
+                        <i class="iconoir-dot-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!--== social card ==-->
+            <div class="card grid gap-4 lg:col-span-1 rounded-3xl p-5 xl:p-6" data-aos="zoom-in">
+                <!-- card link overlay -->
+                <a href="contact.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer"></a>
+                
+                <!-- social card content > image -->
+                <div class="social__card__content flex justify-center items-center gap-4 text-2xl md:text-3xl p-4 rounded-2xl">
+                    <a href="" class="w-16 h-16 flex justify-center items-center rounded-full relative">
+                        <i class="iconoir-dribbble"></i>
+                    </a>
+
+                    <a href="" class="w-16 h-16 flex justify-center items-center rounded-full relative">
+                        <i class="iconoir-twitter"></i>
+                    </a>
+                </div>
+
+                <!-- social card data -->
+                <div class="social__card__data flex justify-between items-center">
+                    <div>
+                        <h6 class="card__subtitle text-xs uppercase font-medium mb-3">stay with me</h6>
+
+                        <h3 class="card__title text-xl capitalize font-semibold mb-2">profiles</h3>
+                    </div>
+
+                    <button class="card__button text-4xl">
+                        <i class="iconoir-dot-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!--== contact card ==-->
+            <div class="card grid gap-4 md:col-span-2 rounded-3xl pt-20 px-5 pb-10 xl:px-6" data-aos="zoom-in">
+                <!-- card link overlay -->
+                <a href="contact.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+
+                <!-- contact card data -->
+                <div class="contact__card__data flex justify-between items-center">
+                    <h1 class="text-3xl md:text-5xl font-medium">
+                        Let's <br>
+                        work <span>together</span>
+                    </h1>
+                </div>
+
+                <button class="card__button flex items-center text-4xl absolute bottom-9 right-6">
+                    <i class="iconoir-dot-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--======== footer ========-->
+<footer>
+    <!--==== footer container ====-->
+    <div class="footer__container container text-center pt-32 pb-20">
+        <!--== logo ==-->
+        <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter">Port<span>HS</span></a>
+        
+        <!--== menu ==-->
+        <ul class="footer__menu flex flex-wrap justify-center items-center gap-6 mt-8 mb-9 text-xs uppercase font-semibold">
+            <li>
+                <a href="index.html" class="footer__menu__link active">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html" class="footer__menu__link">About</a>
+            </li>
+
+            <li>
+                <a href="works.html" class="footer__menu__link">Works</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="footer__menu__link">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright__text text-sm">&copy; All rights reserved by <span>HasanCode</span></p>
+    </div>
+</footer>
+
+<!--======== aos animation js ========-->
+<script src="js/aos-animation.js"></script>
+
+<!--======== custom js ========-->
+<script src="js/main.js"></script>
+</body>
+</html>
