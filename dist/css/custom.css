@@ -281,6 +281,28 @@ a {
     color: var(--primary-color);
 }
 
+/* about page */
+/* main */
+/* about content */
+.about__content__img {
+    max-width: 370px;
+}
+
+/* experience and education card */
+.about__data {
+    color: var(--text-light-color);
+}
+
+.about__title {
+    color: var(--primary-color);
+}
+
+/* self summary */
+.self__summary__card p {
+    color: var(--text-light-color);
+}
+
+
 /* blog page */
 /* main */
 /* page title */
