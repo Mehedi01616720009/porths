@@ -302,6 +302,36 @@ a {
     color: var(--text-light-color);
 }
 
+/* credential page */
+/* main */
+/* credential content */
+.credential__social {
+    width: 50px;
+    height: 50px;
+    background: var(--bg-light-color);
+    color: var(--link-active-color);
+}
+
+.credential__social:hover {
+    color: var(--text-color);
+}
+
+.credential__contact__btn {
+    background: var(--btn-color);
+}
+
+.credential__contact__btn:hover {
+    background: var(--btn-active-color);
+}
+
+/* credential data */
+.credential__first__row p {
+    color: var(--text-light-color);
+}
+
+.credential__title {
+    color: var(--link-active-color);
+}
 
 /* blog page */
 /* main */
