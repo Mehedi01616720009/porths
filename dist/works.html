@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--======== google font ========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--======== iconoir icons css ========-->
+    <link rel="stylesheet" href="css/iconoir.css">
+
+    <!--======== aos animation css ========-->
+    <link rel="stylesheet" href="css/aos-animation.css">
+
+    <!--======== style css ========-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--======== custom css ========-->
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--======== header ========-->
+<header>
+    <!--==== header container ====-->
+    <div class="header__container container flex justify-between items-center mt-3 py-5 md:py-0">
+        <!--== logo ==-->
+        <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter">Port<span>HS</span></a>
+
+        <!--== menu ==-->
+        <div class="nav__menu flex flex-col md:flex-row md:justify-between md:items-center md:gap-14 text-base" id="nav-menu">
+            <!-- nav close -->
+            <div class="nav__close md:hidden" id="nav-close"></div>
+
+            <!-- sidebar logo -->
+            <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter mb-4 md:hidden">Port<span>HS</span></a>
+
+            <!-- menu links -->
+            <a href="index.html" class="nav__link active py-4 md:py-6">Home</a>
+            <a href="about.html" class="nav__link py-4 md:py-6">About</a>
+            <a href="works.html" class="nav__link py-4 md:py-6">Works</a>
+            <a href="contact.html" class="nav__link py-4 md:py-6">Contact</a>
+        </div>
+
+        <!--== contact, toggle button ==-->
+        <div class="nav__short__menu flex items-center gap-3">
+            <!-- contact button -->
+            <a href="contact.html" class="nav__btn px-4 py-2 md:px-7 rounded-lg md:rounded-2xl text-white font-medium">Let's talk</a>
+
+            <!-- toggle button -->
+            <div class="nav__toggle flex flex-col items-center cursor-pointer md:hidden" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--======== main ========-->
+<main class="grid gap-6 pt-20">
+    <!--==== projects cards | projects row ====-->
+    <section class="projects__first__row">
+        <div class="container" data-aos="fade-up">
+            <h2 class="page__title text-2xl font-semibold text-center uppercase mb-7 md:hidden">all projects</h2>
+        </div>
+
+        <div class="container grid md:grid-cols-3 items-start gap-7">
+            <!--== projects sidebar cards ==-->
+            <div class="grid gap-6">
+                <!-- project card -->
+                <div class="card grid gap-4 rounded-3xl p-4 lg:p-6" data-aos="zoom-in">
+                    <!-- card link overlay -->
+                    <a href="single-work.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+                    
+                    <!-- project card content > image -->
+                    <div class="project__card__content rounded-2xl overflow-hidden">
+                        <img src="images/8.jpg" alt="" class="w-full">
+                    </div>
+
+                    <!-- project card data -->
+                    <div class="project__card__data flex justify-between items-center">
+                        <div>
+                            <h6 class="card__subtitle text-xs uppercase font-medium mb-1">web designing</h6>
+
+                            <h3 class="card__title text-xl capitalize font-semibold mb-2">dynamic</h3>
+                        </div>
+
+                        <button class="card__button text-4xl">
+                            <i class="iconoir-dot-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- project card -->
+                <div class="card grid gap-4 rounded-3xl p-4 lg:p-6" data-aos="zoom-in">
+                    <!-- card link overlay -->
+                    <a href="single-work.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+                    
+                    <!-- project card content > image -->
+                    <div class="project__card__content rounded-2xl overflow-hidden">
+                        <img src="images/7.jpg" alt="" class="w-full">
+                    </div>
+
+                    <!-- project card data -->
+                    <div class="project__card__data flex justify-between items-center">
+                        <div>
+                            <h6 class="card__subtitle text-xs uppercase font-medium mb-1">photography</h6>
+
+                            <h3 class="card__title text-xl capitalize font-semibold mb-2">diesel h1</h3>
+                        </div>
+
+                        <button class="card__button text-4xl">
+                            <i class="iconoir-dot-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--== projects main card ==-->
+            <div class="md:col-span-2">
+                <h2 class="page__title md:text-4xl lg:text-5xl xl:text-7xl font-semibold text-center uppercase mt-2 mb-3 hidden md:block" data-aos="fade-up">all projects</h2>
+
+                <!--== projects cards ==-->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- project card -->
+                    <div class="card grid gap-4 rounded-3xl p-4 lg:p-6" data-aos="zoom-in">
+                        <!-- card link overlay -->
+                        <a href="single-work.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+                        
+                        <!-- project card content > image -->
+                        <div class="project__card__content rounded-2xl overflow-hidden">
+                            <img src="images/8.jpg" alt="" class="w-full">
+                        </div>
+
+                        <!-- project card data -->
+                        <div class="project__card__data flex justify-between items-center">
+                            <div>
+                                <h6 class="card__subtitle text-xs uppercase font-medium mb-1">web designing</h6>
+
+                                <h3 class="card__title text-xl capitalize font-semibold mb-2">dynamic</h3>
+                            </div>
+
+                            <button class="card__button text-4xl">
+                                <i class="iconoir-dot-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- project card -->
+                    <div class="card grid gap-4 rounded-3xl p-4 lg:p-6" data-aos="zoom-in">
+                        <!-- card link overlay -->
+                        <a href="single-work.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+                        
+                        <!-- project card content > image -->
+                        <div class="project__card__content rounded-2xl overflow-hidden">
+                            <img src="images/7.jpg" alt="" class="w-full">
+                        </div>
+
+                        <!-- project card data -->
+                        <div class="project__card__data flex justify-between items-center">
+                            <div>
+                                <h6 class="card__subtitle text-xs uppercase font-medium mb-1">photography</h6>
+
+                                <h3 class="card__title text-xl capitalize font-semibold mb-2">diesel h1</h3>
+                            </div>
+
+                            <button class="card__button text-4xl">
+                                <i class="iconoir-dot-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- project card -->
+                    <div class="card grid gap-4 rounded-3xl p-4 lg:p-6" data-aos="zoom-in">
+                        <!-- card link overlay -->
+                        <a href="single-work.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+                        
+                        <!-- project card content > image -->
+                        <div class="project__card__content rounded-2xl overflow-hidden">
+                            <img src="images/8.jpg" alt="" class="w-full">
+                        </div>
+
+                        <!-- project card data -->
+                        <div class="project__card__data flex justify-between items-center">
+                            <div>
+                                <h6 class="card__subtitle text-xs uppercase font-medium mb-1">web designing</h6>
+
+                                <h3 class="card__title text-xl capitalize font-semibold mb-2">dynamic</h3>
+                            </div>
+
+                            <button class="card__button text-4xl">
+                                <i class="iconoir-dot-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- project card -->
+                    <div class="card grid gap-4 rounded-3xl p-4 lg:p-6" data-aos="zoom-in">
+                        <!-- card link overlay -->
+                        <a href="single-work.html" class="card__link__overlay w-full h-full absolute top-0 left-0 block cursor-pointer z-10"></a>
+                        
+                        <!-- project card content > image -->
+                        <div class="project__card__content rounded-2xl overflow-hidden">
+                            <img src="images/7.jpg" alt="" class="w-full">
+                        </div>
+
+                        <!-- project card data -->
+                        <div class="project__card__data flex justify-between items-center">
+                            <div>
+                                <h6 class="card__subtitle text-xs uppercase font-medium mb-1">photography</h6>
+
+                                <h3 class="card__title text-xl capitalize font-semibold mb-2">diesel h1</h3>
+                            </div>
+
+                            <button class="card__button text-4xl">
+                                <i class="iconoir-dot-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--======== footer ========-->
+<footer>
+    <!--==== footer container ====-->
+    <div class="footer__container container text-center pt-32 pb-20">
+        <!--== logo ==-->
+        <a href="index.html" class="nav__logo text-3xl font-bold tracking-tighter">Port<span>HS</span></a>
+        
+        <!--== menu ==-->
+        <ul class="footer__menu flex flex-wrap justify-center items-center gap-6 mt-8 mb-9 text-xs uppercase font-semibold">
+            <li>
+                <a href="index.html" class="footer__menu__link active">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html" class="footer__menu__link">About</a>
+            </li>
+
+            <li>
+                <a href="works.html" class="footer__menu__link">Works</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="footer__menu__link">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright__text text-sm">&copy; All rights reserved by <span>HasanCode</span></p>
+    </div>
+</footer>
+
+<!--======== aos animation js ========-->
+<script src="js/aos-animation.js"></script>
+
+<!--======== custom js ========-->
+<script src="js/main.js"></script>
+</body>
+</html>
